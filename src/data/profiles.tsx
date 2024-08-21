@@ -43,10 +43,10 @@ export const clubsData: Club[] = [
         ]
     },
     {
-        clubName: "Poo Poo Butts",
+        clubName: "Another Club",
         profilePNG: "...",
         profilePic: "...",
-        username: "Poo.Butts",
+        username: "Club.Two",
         password: "rcpcPPB217",
         officers: [
             {
@@ -59,7 +59,7 @@ export const clubsData: Club[] = [
                 Name: "Maggie He",
                 Title: "VP DEI",
                 Uniqname: "magghe",
-                BBA: "no"
+                BBA: "yes"
             },
             {
                 Name: "Priya Rao",
