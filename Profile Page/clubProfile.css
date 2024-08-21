@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.navText {
+    color: #001D6E;
+    font-family: 'Lora', serif;
+}
+.drop {
+    font-size: 16px;
+    margin-right: 23px;
+    margin-top: 4px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px
+}
+
+#toggle {
+    border-color: #001D6E
+}
+#navImage img {
+    margin-left: 50px; /* Adjust the margin as needed */
+}
+
+body {
+    background-color: #F3E8DD;
+    height: 100%;
+}
+
+.bg-beige {
+    background-color: #F3E8DD;
+}
+
+.bg-lblue {
+    background-color: #C4DDFF
+}
+
+.bg-mblue {
+    background-color: #7FB5FF
+}
+
+.bg-dblue {
+    background-color: #001D6E
+}
+
+.txt-beige {
+    color: #F3E8DD;
+}
+
+.txt-lblue {
+    color: #C4DDFF
+}
+
+.txt-mblue {
+    color: #7FB5FF
+}
+
+.txt-dblue {
+    color: #001D6E
+}
+
+.profileCard {
+    background-color: #FFFFFF;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profileLogo {
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 22%;
+    border-radius: 4px;
+}
+
+#profileLogo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
