@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.navText {
+    color: #001D6E;
+    font-family: 'Lora', serif;
+}
+.drop {
+    font-size: 16px;
+    margin-right: 23px;
+    margin-top: 4px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px
+}
+
+#toggle {
+    border-color: #001D6E
+}
+
+#navImage img {
+    margin-left: 50px; /* Adjust the margin as needed */
+}
+
+body {
+    background-color: #F3E8DD;
+    height: 100%;
+}
+
+.bg-beige {
+    background-color: #F3E8DD;
+}
+
+.bg-lblue {
+    background-color: #C4DDFF
+}
+
+.bg-mblue {
+    background-color: #7FB5FF
+}
+
+.bg-dblue {
+    background-color: #001D6E
+}
+
+.bg-gray {
+    background-color: #D9D9D9
+}
+
+.txt-beige {
+    color: #F3E8DD;
+}
+
+.txt-lblue {
+    color: #C4DDFF
+}
+
+.txt-mblue {
+    color: #7FB5FF
+}
+
+.txt-dblue {
+    color: #001D6E
+}
+
+.txt-Lora {
+    font-family: 'Lora', serif;
+}
+
+.txt-Merri {
+    font-family: 'Merriweather', serif;
+}
+
+.profileCard {
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.officerBox {
+    border-radius: 0px;
+}
+
+.officerBox p {
+    margin-top: 9px;
+}
+
+.profileLogo {
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 30%;
+    border-radius: 4px;
+}
+
+.profileImage {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.officers {
+    margin-left: 70px;
+    width: 64%;
+}
+
+.bg-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cardOne {
+    grid-row: 1;
+    grid-column: 1;
+    border-top-left-radius: 25px;
+}
+
+.cardTwo {
+    grid-row: 1;
+    grid-column: 2;
+    border-top-right-radius: 25px;
+}
+
+.cardThree {
+    grid-row: 2;
+    grid-column: 1;
+    border-bottom-left-radius: 25px;
+}
+
+.cardFour {
+    grid-row: 2;
+    grid-column: 2;
+    border-bottom-right-radius: 25px;
+}
+
+.officerCard button{
+    border-color: #F3E8DD;
+    height: 25%;
+    margin-top: 65px;
+    margin-right: 2px;
+}
+
+.dropText {
+    font-size: 20px;
+}
+
+.carrot {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown .btn-primary:hover {
+    background-color: #7FB5FF
+}
