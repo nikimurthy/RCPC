@@ -1,5 +1,6 @@
-const express = require('express');
-const User = require('../models/User');
+import express from 'express';
+import Club from '../models/clubs.js';
+
 const router = express.Router();
 
 // POST /login - Validate username and password
@@ -8,11 +9,11 @@ router.post('/login', async (req, res) => {
 
   try {
     // Check if username exists
-    const user = await User.findOne({ username });
-    if (!user) return res.status(400).json({ error: 'invalid username' });
+    const club = await Club.findOne({ username });
+    if (!club) return res.status(400).json({ error: 'invalid username' });
 
     // Verify password
-    const isPasswordCorrect = await user.comparePassword(password);
+    const isPasswordCorrect = await club.comparePassword(password);
     if (!isPasswordCorrect) return res.status(400).json({ error: 'invalid password' });
 
     res.status(200).json({ message: 'Login successful' });
@@ -21,4 +22,4 @@ router.post('/login', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
